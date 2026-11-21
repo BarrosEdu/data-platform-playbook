@@ -14,15 +14,11 @@ Centralizar exemplos reproduzíveis de CLI para tarefas como:
 - observabilidade e troubleshooting;
 - automação de ambientes locais e cloud.
 
-## Estrutura planejada
+## Playbooks
 
-Cada ferramenta terá sua própria pasta, com instruções de instalação,
-autenticação, comandos frequentes e exemplos seguros para reutilização.
-
-## Status
-
-Repositório em construção. A lista de ferramentas e os primeiros playbooks serão
-adicionados nas próximas etapas.
+- [dbt Core no Databricks](dbt/README.md) — configure o SQL Warehouse e o Unity Catalog, construa um modelo Delta e leve o projeto para produção.
+- [Catálogo completo da CLI do dbt Core 1.10.x](dbt/cli.md#catálogo-completo-de-comandos) — veja o que cada comando faz e consulte exemplos por fase do projeto.
+- [Comandos de testes do dbt](dbt/cli.md#comandos-de-testes) — rode a suíte, selecione um teste de coluna e investigue falhas no Databricks.
 
 ## Segurança
 
